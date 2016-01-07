@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_takeCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="拍照" />
+
+    <Button
+        android:id="@+id/btn_pickPhotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="从相册中选择" />
+
+    <Button
+        android:id="@+id/btn_cropBeauty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="么么哒" />
+
+    <ImageView
+        android:id="@+id/iv_cropImage"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+</LinearLayout>
